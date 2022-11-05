@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Statements"
-permalink: /statements/
+title: "Blog"
+permalink: /blog/
 ---
 
-All of our recent statements
+Recent statements and articles by Dayton-Miami Valley DSA.
 
 <div class="row my-5">
   {% for post in site.posts %}
