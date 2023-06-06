@@ -1,4 +1,8 @@
 global:
-  - about: "<b>We are the Dayton-Miami Valley local chapter of the Democratic Socialists of America, covering Montgomery, Greene, Clark, Miami, Preble, and Warren Counties in Ohio.</b> We believe in building a working class movement to end capitalist exploitation, fight for justice, and materially improve our communities."
-  - welcome: "Welcome to Dayton-Miami Valley DSA!"
-  - welcome-image: ""
+  # The text that will be displayed at the bottom of every page.
+  about: "We are the Dayton-Miami Valley local chapter of the Democratic Socialists of America, covering Montgomery, Greene, Clark, Miami, Preble, and Warren Counties in Ohio.</b> We believe in building a working class movement to end capitalist exploitation, fight for justice, and materially improve our communities."
+  # The title on the landing page.
+  welcome: "Welcome to Dayton-Miami Valley DSA!"
+  welcome-image: ""
+  # The text that will be displayed in the middle of the landing page.
+  landing-page-text: "TODO: Update this to the content you want"
