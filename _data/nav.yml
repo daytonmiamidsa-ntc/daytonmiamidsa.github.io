@@ -9,6 +9,9 @@ header:
   - title: "Chapter Bylaws"
     url: "/bylaws/"
     description: "Here are the bylaws for the Dayton-Miami Valley DSA"
+  - title: "Join"
+    url: "/join/"
+    description: "Join DSA today!"
 
 # footer links
 footer:
