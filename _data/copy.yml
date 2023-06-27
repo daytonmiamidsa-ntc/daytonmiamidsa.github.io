@@ -6,3 +6,5 @@ global:
   welcome-image: ""
   # The text that will be displayed in the middle of the landing page.
   landing-page-text: "TODO: Update this to the content you want"
+  # The image that will show up on the right side of the landing page.
+  landing-page-image: "assets/images/1500x500__1_.png"
