@@ -50,7 +50,8 @@ follow:
   - *twitter
   - *instagram
 
-# I don't see where this gets used yet
+# This list appears at the bottom of each blog post.
+# At the moment, only the twitter link is shown/is supported.
 share:
   - *facebook
   - *twitter
