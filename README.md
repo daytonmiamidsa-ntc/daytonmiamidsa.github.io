@@ -200,7 +200,7 @@ You can also add the page to the navigation bar that appears at the top of every
 
 ## Adding Pictures to Pages and Posts
 
-Pictures can be inserted into posts an non-post pages. The syntax for adding pictures to markdown files can be found [here](https://www.markdownguide.org/basic-syntax#images-1). Additionally, you can look at the raw markdown for this page to see several examples. The one convention Jekyll follows is that you put the images in the `assets/images/` folder.
+Pictures can be inserted into posts an non-post pages. The syntax for adding pictures to markdown files can be found [here](https://www.markdownguide.org/basic-syntax#images-1). Note the comment that image alt text is specified by the text in the brackets. Additionally, you can look at the raw markdown for this page to see several examples. The one convention Jekyll follows is that you put the images in the `assets/images/` folder.
 
 Adding images to the repository is done similarly to how you create a new post. Navigate to the `assest/images/` folder on GitHub, click the "Add file" dropdown menu, and select "Upload files":
 
