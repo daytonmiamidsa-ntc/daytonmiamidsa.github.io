@@ -4,11 +4,39 @@ This document serves to both tell you about your new site and give you instructi
 
 If instructions are missing for something you want to do or if you have a question that this page doesn't answer, please reach out to the NTC for help. Doing so will allow us to add more information to this page, so other chapters can benefit.
 
+- [README for Chapters](#readme-for-chapters)
+  - [Site Features](#site-features)
+    - [RSS Feed](#rss-feed)
+    - [Search Engine Optimization (SEO)](#search-engine-optimization-seo)
+  - [Adding a New Post](#adding-a-new-post)
+    - [Draft Posts](#draft-posts)
+      - [Moving a Post into the Drafts Directory](#moving-a-post-into-the-drafts-directory)
+      - [Publishing a Draft Post](#publishing-a-draft-post)
+  - [Editing an Existing Page](#editing-an-existing-page)
+  - [Editing Landing Page Content](#editing-landing-page-content)
+  - [Editing the Navigation Header](#editing-the-navigation-header)
+    - [Dropdowns](#dropdowns)
+  - [Changing the Site Title](#changing-the-site-title)
+  - [Changing the Site Icon](#changing-the-site-icon)
+    - [Header and Footer Icons](#header-and-footer-icons)
+    - [Tab Icon](#tab-icon)
+  - [Adding a New Non-Post Page](#adding-a-new-non-post-page)
+  - [Adding Pictures to Pages and Posts](#adding-pictures-to-pages-and-posts)
+    - [Supported File Types](#supported-file-types)
+    - [Removing Metadata](#removing-metadata)
+  - [Specifying Social Media Accounts](#specifying-social-media-accounts)
+  - [Changing the Blog Author Name](#changing-the-blog-author-name)
+  - [Useful Reference Links](#useful-reference-links)
+
 ## Site Features
 
 ### RSS Feed
 
 In the footer at the bottom of every page there is a link to the site's RSS feed. This is updated automatically when you make a new blog post. Readers can subscribe to the RSS feed using an RSS reader, and be notified when you make a new post.
+
+### Search Engine Optimization (SEO)
+
+Search Engine Optimization (SEO) makes your pages appear higher up on web search results pages. Your site uses the [Jekyll SEO Tag plugin](https://jekyll.github.io/jekyll-seo-tag/) to add tags to each of your pages to optimize them for search engines. The plugin operates by using information you specify in the `_config.yml` file. The fields and what they mean are listed [here](https://jekyll.github.io/jekyll-seo-tag/usage/). If there are any fields you need more information on, reach out to the NTC and we can add information to this README.
 
 ## Adding a New Post
 
@@ -167,6 +195,18 @@ Pictures can be inserted into posts an non-post pages. The syntax for adding pic
 Adding images to the repository is done similarly to how you create a new post. Navigate to the `assest/images/` folder on GitHub, click the "Add file" dropdown menu, and select "Upload files":
 
 !["Upload files" button](/readme-assets/chapter_readme/upload-files.png)
+
+### Supported File Types
+
+Jekyll and GitHub Pages should support all common image types. If you encounter an image type that is not supported, please reach out to the NTC so we can update this section.
+
+### Removing Metadata
+
+To preserve the privacy of members, metadata should be removed from photos you upload to your site.
+
+On Windows, this can be done without a third-party application: [see here](https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/how-to-remove-metadata-from-photos)
+
+On Mac, this may require a third-party application: [see here](https://discussions.apple.com/thread/254073180)
 
 ## Specifying Social Media Accounts
 
