@@ -8,6 +8,8 @@ If instructions are missing for something you want to do or if you have a questi
   - [Site Features](#site-features)
     - [RSS Feed](#rss-feed)
     - [Search Engine Optimization (SEO)](#search-engine-optimization-seo)
+    - [Hosting files](#hosting-files)
+      - [File and Repository Size Limits](#file-and-repository-size-limits)
   - [Adding a New Post](#adding-a-new-post)
     - [Draft Posts](#draft-posts)
       - [Moving a Post into the Drafts Directory](#moving-a-post-into-the-drafts-directory)
@@ -37,6 +39,14 @@ In the footer at the bottom of every page there is a link to the site's RSS feed
 ### Search Engine Optimization (SEO)
 
 Search Engine Optimization (SEO) makes your pages appear higher up on web search results pages. Your site uses the [Jekyll SEO Tag plugin](https://jekyll.github.io/jekyll-seo-tag/) to add tags to each of your pages to optimize them for search engines. The plugin operates by using information you specify in the `_config.yml` file. The fields and what they mean are listed [here](https://jekyll.github.io/jekyll-seo-tag/usage/). If there are any fields you need more information on, reach out to the NTC and we can add information to this README.
+
+### Hosting files
+
+You can use your site to host **small** files (like PDFs or Word Docs) and provide download links to them. You should upload these files to the `/assets/files/` directory in the same way that you upload images to the `/assets/images/` directory (as explained in [Adding Pictures to Pages and Posts](#adding-pictures-to-pages-and-posts)). Inserting `[Link to file](/assets/files/some_file.pdf)` in any of your pages, will create a download link to your file.
+
+#### File and Repository Size Limits
+
+GitHub does not want to you use your site to host large files. There is detail [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits), but basically, if you want to host videos or anything larger than 1 GB, you should use a content distribution network (CDN) for that, and the NTC would be happy to support you in doing so.
 
 ## Adding a New Post
 
